@@ -168,6 +168,11 @@
     align-items: center;
     margin: 0 auto;
     transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left: 8.38px;
 }
 
 .label-checkbox__input {
@@ -179,6 +184,7 @@
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
+    font-weight: 500;
 }
 
 .label-checkbox__icon {
@@ -186,6 +192,7 @@
     border: 2px solid #212121;
     border-radius: 4px;
     cursor: pointer;
+    margin-right: 8px;
 }
 
 .label-checkbox__input:checked + .label-checkbox__icon {
@@ -193,19 +200,11 @@
     border-color: transparent;
 }
 
-.label-checkbox__text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-    margin-left: 8.38px;
-}
-
 .label-checkbox__pact {
     text-decoration: underline;
     color: #2196F3; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 5px;
 }
 
 .label-comment__form:focus {
