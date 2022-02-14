@@ -1,0 +1,16 @@
+@import './utils/_normalize.scss';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import './utils/_reset.scss';
+@import './utils/_variables.scss';
+@import './utils/_boxes.scss';
+@import './components/_header.scss';
+@import './components/_hero.scss';
+@import './components/_special.scss';
+@import './components/_work.scss';
+@import './components/_team.scss';
+@import './components/_client.scss';
+@import './components/_footer.scss';
+@import './components/modal';
+// only portfolio //
+@import './components/_services-button.scss';
+@import './components/services-cards'
